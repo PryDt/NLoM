@@ -9,12 +9,11 @@
 			integrity="sha256-/SIrNqv8h6QGKDuNoLGA4iret+kyesCkHGzVUUV0shc=" 
 			crossorigin="anonymous">
 		</script>
-
 		<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
 		<link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.indigo-pink.min.css">
 		<script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	</head>
-	
 	<body>
 		<!--- the side nav code... ~ prydt-->
 		<div id="side" class="sidenav">
@@ -25,11 +24,127 @@
 			<a href="#">FAQ's</a>
 			<a href="#">Contact the Founders</a>
 		</div>
-
-		<span onclick="openNav()">
-			<button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent">
-				Button
-			</button>
-		</span>
+		<button onclick="openNav()" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent">
+			More Info
+		</button>
+		<div id="content">
+			<h1 id="title" class="centered">Newtonian Quiz!</h1>
+			<h4 id="subtitle" class="centered">Created and Conceived By <a href="https://github.com/PryDt">Pranoy Dutta</a> and <a href="https://github.com/wbne">Ben Wang</a></h4>
+			<div id="quiz">
+				<div id="1" class="q">
+					<p>1. What is Newton's First Law of Motion?</p>
+					<form>
+						<input type="radio" name="1" value="a"> Inertia<br>
+						<input type="radio" name="1" value="b"> Gravity<br>
+						<input type="radio" name="1" value="c"> Heliocentric Theory<br>
+						<input type="radio" name="1" value="d"> Theory of Superconductivity
+					</form>
+				</div>
+				<div id="2" class="q">
+					<p>2. What is Newton's Second Law of Motion?</p>
+					<form>
+						<input type="radio" name="2" value="a"> Second Law of Thermodynamics<br>
+						<input type="radio" name="2" value="b"> P = mCt<br>
+						<input type="radio" name="2" value="c"> Boyle's Constant<br>
+						<input type="radio" name="2" value="d"> F=ma
+					</form>
+				</div>
+				<div id="3" class="q">
+					<p>3. What is Newton's Third Law of Motion?</p>
+					<form>
+						<input type="radio" name="3" value="a"> E = mc<sup>2</sup><br>
+						<input type="radio" name="3" value="b"> Every action must have an opposite reaction<br>
+						<input type="radio" name="3" value="c"> When an atom releases an electron from its nucleus<br>
+						<input type="radio" name="3" value="d"> Every object will gravitate towards its center
+					</form>
+				</div>
+				<div id="4" class="q">
+					<p>4. What is an example of Newton's First Law of Motion?</p>
+					<form>
+						<input type="radio" name="4" value="a"> Ben shoving Pranoy onto a blue burrito<br>
+						<input type="radio" name="4" value="b"> Osmosis<br>
+						<input type="radio" name="4" value="c"> Heat<br>
+						<input type="radio" name="4" value="d"> Spock teleporting onto planet Zorg
+					</form>
+				</div>
+				<div id="5" class="q">
+					<p>5. What is an example of Newton's Third Law of Motion?</p>
+					<form>
+						<input type="radio" name="5" value="a"> Pranoy goes super saiyan, blasting Ben into Narnia<br>
+						<input type="radio" name="5" value="b"> Pranoy punches a T-Rex that weighs 5,000kg and launches it 30 m/s<sup>2</sup><br>
+						<input type="radio" name="5" value="c"> Pranoy firing a laser beam from his eyeballs, roasting Ben, and then is propelled backwards<br>
+						<input type="radio" name="5" value="d"> Pranoy eats a pencil to maintain homeostasis
+					</form>
+				</div>
+				<div id="6" class="q">
+					<p>6. What law does this image convey?</p>
+					<form>
+						<input type="radio" name="6" value="a"> Penguins<br>
+						<input type="radio" name="6" value="b"> First Law of Motion<br>
+						<input type="radio" name="6" value="c"> Newton's Law of Gravity<br>
+						<input type="radio" name="6" value="d"> Boyle's Law
+					</form>
+				</div>
+				<div id="7" class="q">
+					<p>7. What law does this image convey?</p>
+					<form>
+						<input type="radio" name="7" value="a"> Avogadro's Number<br>
+						<input type="radio" name="7" value="b"> The idea that light creates mass<br>
+						<input type="radio" name="7" value="c"> F=ma<br>
+						<input type="radio" name="7" value="d"> Any opposite force must come from an equal and opposite force of the same magnitude
+					</form>
+				</div>
+				<div id="8" class="q">
+					<p>8. Calculate the Force in the picture.</p>
+					<form>
+						<input type="radio" name="8" value="a"> 20N<br>
+						<input type="radio" name="8" value="b"> 9N<br>
+						<input type="radio" name="8" value="c"> 1N<br>
+						<input type="radio" name="8" value="d"> 15N
+					</form>
+				</div>
+				<div id="9" class="q">
+					<p>9. Select the image where friction doesn't inhibit FLoM and TLoM can be clearly shown.</p>
+					<form>
+						<input type="radio" name="9" value="a"> In water<br>
+						<input type="radio" name="9" value="b"> In the air<br>
+						<input type="radio" name="9" value="c"> In SPPPPPAAAAAACCCCCEEE<br>
+						<input type="radio" name="9" value="d"> In Anywhere land
+					</form>
+				</div>
+				<div id="10" class="q">
+					<p>10. When does this image have the most kinetic energy?</p>
+					<form>
+						<input type="radio" name="10" value="a"> Point 1<br>
+						<input type="radio" name="10" value="b"> Point 2<br>
+						<input type="radio" name="10" value="c"> Point 3<br>
+						<input type="radio" name="10" value="d"> Point 4
+					</form>
+				</div>
+				<div id="11" class="q">
+					<p>11. What is a non-newtonian fluid?</p>
+					<form>
+						<input type="radio" name="11" value="a"> Oobleck<br>
+						<input type="radio" name="11" value="b"> Water<br>
+						<input type="radio" name="11" value="c"> Fertilized-Cultured Potato Juice<br>
+						<input type="radio" name="11" value="d"> Yogurt
+					</form>
+				</div>
+				<div id="12" class="q">
+					<p>12. What are we made of?</p>
+					<form>
+						<input type="radio" name="12" value="a"> Mesons<br>
+						<input type="radio" name="12" value="b"> Baryons<br>
+						<input type="radio" name="12" value="c"> Fermions<br>
+						<input type="radio" name="12" value="d"> Quarks
+					</form>
+				</div>
+				<div id="right">
+					<button id="submit" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent">
+					  Submit
+					</button>
+				</div>
+			</div>
+		</div>
 	</body>
 </html>
