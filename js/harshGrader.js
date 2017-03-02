@@ -37,7 +37,7 @@ $(function() {
 				correct++;
 			}
 		}
-		window.location.replace("https://prydt.github.io/NLoM/done.html");
+		window.location.replace("https://prydt.github.io/NLoM/done.html?c=" + correct);
 		// Testing...
 		//alert(correct);
 		//correct = 0;
